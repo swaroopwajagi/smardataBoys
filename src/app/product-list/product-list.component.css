@@ -1,0 +1,12 @@
+td{
+    
+    margin:20px;
+}
+.container{
+    margin-top: 10px;
+}
+
+.productTitle:hover{
+    color:yellow;
+    cursor: pointer;
+}

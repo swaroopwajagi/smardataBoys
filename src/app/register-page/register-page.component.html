@@ -1,0 +1,35 @@
+<div class="main-w3layouts wrapper"style="background-color:green">
+    <h1>Creative SignUp Form</h1>
+    <div class="main-agileinfo">
+        <div class="agileits-top">
+            <form action="#" method="post">
+                <input class="text" type="text" name="Username" [(ngModel)]="userInfo.username" placeholder="Username" required="" style="margin:20px;">
+                <input class="text" type="password" name="password" placeholder="Password" [(ngModel)]="userInfo.password" required="" style="margin:20px;">
+                <select name="role" id="" class="text" style="margin:20px;" [(ngModel)]="userInfo.role">
+                    <option value="" selected>Select your Roles</option>
+                    <option value="Customer">Customer</option>
+                    <option value="Provider">Service Provider</option>
+                </select>
+                <input type="submit" (click)="addUserData()" value="Register">
+            </form>
+            <p>Don't have an Account? <a href="#"> Login Now!</a></p>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="colorlibcopy-agile">
+        <p>© 2018 Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+    </div>
+    <!-- //copyright -->
+    <ul class="colorlib-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
